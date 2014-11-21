@@ -36,7 +36,7 @@ svg.selectAll("path")
 
 function animate(x, y, colour, type) {
   d3.selectAll("path")
-    .transition().delay(300)
+    .transition().duration(240)
     .attr("fill", colour)
     .attr("d", function() { return flow_shapes[type](sh, sw);})
     .attr("transform", function(d) {
