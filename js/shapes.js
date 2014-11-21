@@ -1,8 +1,8 @@
 var w = 400;
 var h = 400;
 var interval = w/4;
-var sw = 40;
-var sh = 40;
+var sw = 100;
+var sh = sw;
 
 var flow_shapes = { 
   prep: function(height, width) {
