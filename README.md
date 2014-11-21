@@ -1,4 +1,4 @@
 d3
 ==
 
-A working repo where I will play with and learn more d3.js
+A working repo for learning d3.js.
